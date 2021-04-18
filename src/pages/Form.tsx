@@ -4,6 +4,7 @@ import { Button, Form, Container, Header } from "semantic-ui-react";
 import "../style/Form.css";
 import swal from "sweetalert";
 import { GOOGLE_SHEET_API_LINK } from "../config/api";
+
 export const FormComponent: React.FC<{}> = (props) => {
   /**
    *@interface {GoogleSheetForm}
@@ -30,6 +31,7 @@ export const FormComponent: React.FC<{}> = (props) => {
    * @param event
    * @returns {object} contains form data
    */
+
   const updateForm: Function = (event: ChangeEvent<HTMLInputElement>) => {
     setForm({
       ...form,
