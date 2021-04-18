@@ -5,7 +5,9 @@
 /.pnp
 .pnp.js
 #google sheet api link
-/home/fakhri/Desktop/-React-GoogleSheets/src/config/api.ts
+../src/config/api.ts
+./config/api.ts
+.api.ts
 # testing
 /coverage
 
