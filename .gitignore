@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+#google sheet api link
+/config/api.ts
 # testing
 /coverage
 
